@@ -1,5 +1,5 @@
 $(function () {
-    // skrollr.init()
+    skrollr.init()
     // window.scrollTo(0, 0);
     
     // $('html, body').css('overflow', 'hidden');
