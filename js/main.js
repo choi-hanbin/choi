@@ -1,6 +1,6 @@
 $(function () {
-    skrollr.init()
-    window.scrollTo(0, 0);
+    // skrollr.init()
+    // window.scrollTo(0, 0);
     
     // $('html, body').css('overflow', 'hidden');
     // setTimeout(function () {
