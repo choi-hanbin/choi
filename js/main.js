@@ -2,14 +2,14 @@ $(function () {
     skrollr.init()
     window.scrollTo(0, 0);
     
-    $('html, body').css('overflow', 'hidden');
-    setTimeout(function () {
-        $('html, body').css('overflow', 'auto');
-    }, 3900);
+    // $('html, body').css('overflow', 'hidden');
+    // setTimeout(function () {
+    //     $('html, body').css('overflow', 'auto');
+    // }, 3900);
 
-    if ('scrollRestoration' in history) {
-        history.scrollRestoration = 'manual';
-    }
+    // if ('scrollRestoration' in history) {
+    //     history.scrollRestoration = 'manual';
+    // }
 
     $(".work-item").each(function () {
         var video = $(this).find("video").get(0);
